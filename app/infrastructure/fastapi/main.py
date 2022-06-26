@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from app.controller.user import signup
 
 
-# Infra -> Controller -> Service ->Domain
+# Infra -> Controller -> Service -> Domain
 from app.infrastructure.database.orm import db, UserModel
 
 
