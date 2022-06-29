@@ -14,4 +14,4 @@ class UserRepository(AbstractRepository):
         if not user:
             return None
 
-        return User
+        return User(name=user.name)

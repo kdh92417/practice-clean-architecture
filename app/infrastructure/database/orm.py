@@ -1,6 +1,7 @@
 from peewee import *
 
-db = SqliteDatabase("database.db")
+# DB를 동적으로 처리하기위해 None으로 변경
+db = SqliteDatabase(None)
 
 
 class BaseModel(Model):
